@@ -1,0 +1,20 @@
+/* 公用css样式 */
+/* 左浮动 */
+.lf{
+    float: left;
+}
+/* 右浮动 */
+.rf{
+    float: right;
+}
+/* 清除浮动 */
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* 版心 */
+.warp{
+    width: 1200px;
+    margin: auto;
+}

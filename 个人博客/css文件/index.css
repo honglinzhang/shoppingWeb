@@ -1,0 +1,322 @@
+/* 博客首页样式布局 */
+/* 头部 */
+/* 页头 */
+#header>.title{
+    width:100%;
+    height:25px;
+    line-height: 25px;
+    background-color: #444;
+}
+/* 版心下文字 */
+#header>.title span,
+#header>.title a{
+    color:#aaa;
+}
+/* logo和导航 */
+/* 左边logo */
+#header .logo{
+    width:159px;
+    height:75px;
+    background-image: url("../images/logo.png");
+}
+/* 中间导航 */
+#header .nav{
+    width:805px;
+    height:75px;
+    line-height: 75px;
+    padding-left:50px;
+}
+#header .nav>a{
+    font-size:18px;
+    margin-left:20px;
+}
+/* 右边搜索 */
+#header .searchBar{
+    width:186px;
+    height:75px;
+}
+/* 输入框 */
+#header .searchBar>input{
+    width:160px;
+    height:20px;
+    border:1px solid #ccc;
+    margin-top:26px;
+}
+/* 搜索按钮*/
+#header .searchBar>button{
+    width:20px;
+    height:24px;
+    background-color: #fff;
+    background-image: url("../images/search.png");
+    background-position: -6px -4px;
+    border:1px solid #ccc;
+    margin-top:26px;
+}
+/* banner */
+#banner{
+    width:100%;
+    height:200px;
+    background-image: url("../images/banner.png");
+    position:relative;
+}
+/* 版心 */
+#banner .warp{
+    height:70px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/* 源宝博客 */
+#banner>.warp .textTitle{
+    font-size:26px;
+    display: inline-block;
+    font-weight:bold;
+    color:white;
+    font-family: "黑体";
+}
+/* 关注 */
+#banner>.warp a{
+    display: inline-block;
+    color:blue;
+    margin-left:10px;
+}
+/* 原创 */
+#banner>.warp .original{
+    font-size:14px;
+    color:white;
+    margin-top:18px;
+}
+/* 主体内容 */
+#main{
+    width:100%;
+    background-color: #f2f2f2;
+    padding-top:16px;
+}
+/* 左边大列表 */
+#main .leftLists>ul{
+    width:850px;
+}
+#main .leftLists>ul>li{
+    height:196px;
+    background-color: #fff;
+    margin-bottom:16px;
+}
+/* 左边图片 */
+#main .leftLists .leftImg img{
+    width:205px;
+    height:166px;
+    margin:15px;
+}
+/*  右边文本 */
+#main .leftLists .rightText{
+    width:600px;
+    margin-top:18px;
+}
+/* 大标题 */
+#main .leftLists .rightText>.bigTitle{
+    font-size:16px;
+    margin-bottom:20px;
+}
+/* 小标题 */
+#main .leftLists .rightText>.smallTitle{
+    margin-bottom:20px;
+}
+#main .leftLists .rightText>.smallTitle span{
+    display:inline-block;
+    margin-left:5px;
+}
+/* 精灵小图标 */
+#main .leftLists .rightText>.smallTitle .icons{
+    height:20px;
+    background-image: url("../images/icon.png");
+    background-position: -2px 2px;
+    padding-left:17px;
+}
+#main .leftLists .rightText>.smallTitle .icon2{
+    background-position: -2px -15px;
+}
+#main .leftLists .rightText>.smallTitle .icon3{
+    background-position: -2px -48px;
+}
+#main .leftLists .rightText>.smallTitle .icon4{
+    background-position: -2px -31px;
+}
+/* 文本 */
+#main .leftLists .rightText>.text{
+    font-size:14px;
+}
+#main .jump>button{
+    width:50px;
+    height:40px;
+    margin-left:4px;
+    background-color: #fff;
+    color:black;
+    border:none;
+    border-radius: 10%;
+}
+/* 右边小列表 */
+#main .rightLists{
+    margin-left:16px;
+    width:300px;
+    padding:0 15px;
+    background-color: #fff;
+    min-height:2150px;
+}
+/* 网站分类 */
+#main .rightLists .webClassify,
+#main .rightLists .controls,
+#main .rightLists .search,
+#main .rightLists .newMessage,
+#main .rightLists .hotArticle,
+#main .rightLists .labelList{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+/* 小列表标题 */
+#main .rightLists .ListTitle{
+    font-size:16px;
+    border-bottom:1px solid #f8f8f8;
+    padding-bottom:20px;
+    margin-bottom:14px;
+} 
+/* 分类列表 */
+#main .rightLists>.webClassify>ul>li,
+#main .rightLists>.labelList>ul>li{
+    width:146px;
+    height:34px;
+    background-color: #f8f8f8;
+    text-align: center;
+    line-height: 34px;
+    float:left;
+    margin-bottom:4px;
+}
+#main .rightLists>.webClassify>ul>li:nth-child(2n+1),
+#main .rightLists>.labelList>ul>li:nth-child(2n+1){
+    margin-right:4px;
+}
+/* 控制面板 */
+/* 欢迎文字 */
+#main .rightLists .welcome{
+    margin-top:20px;
+    margin-bottom:8px;
+}
+/* 搜索 */
+/* 搜索组件 */
+#main .rightLists .searchbar{
+    width:294px;
+    height:28px;
+    background-color: #fff;
+    border:1px solid #f8f8f8;
+    padding:2px;
+}
+/* 输入框 */
+#main .rightLists .searchbar input{
+    width:234px;
+    height:26px;
+    background-color: #f8f8f8;
+    border:none;
+    outline:none;
+}
+/* 搜索按钮 */
+#main .rightLists .searchbar button{
+    width:52px;
+    height:28px;
+    color:#fff;
+    background-color: #00a7ea;
+    border:1px solid #00a7ea;
+    outline:none;
+}
+/* 最新留言 */
+/* 留言列表 */
+/* 互联网图标 */
+#main .rightLists .newMessage .box1{
+    width:50px;
+    height:20px;
+    background-color:#00a7ea;
+    display: inline-block;
+    color:#fff;
+    /* 相对定位 */
+    position:relative;
+    text-align: center;
+    line-height: 20px;
+    margin-right:6px;
+}
+#main .rightLists .newMessage .box2{
+    width:8px;
+    height:8px;
+    background-color:#00a7ea;
+    display: inline-block;
+    /* 相对定位 */
+    position:absolute;
+    transform: rotate(45deg);
+    right:-4px;
+    top:7px;
+}
+/* 列表 */
+#main .rightLists .newMessage ul li{
+    height:49px;
+    line-height:49px;
+    border-bottom:1px dashed #f8f8f8;
+}
+/* 热门文章 */
+#main .rightLists .hotArticle>ul>li{
+    border-bottom:1px dashed #f8f8f8;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+/* 精灵图标 */
+#main .rightLists .hotArticle .icon1{
+    background-image: url("../images/list.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: inline-block;
+    width:8px;
+    height:9px;
+}
+#main .rightLists .hotArticle .icons{
+    display:inline-block;
+    height:16px;
+    background-image: url("../images/icon.png");
+    background-position: 9px -15px;
+    padding-left:28px;
+    margin-top:16px;
+}
+#main .rightLists .hotArticle .icon3{
+    background-position: 9px -48px;
+}
+/* 跳转页码 */
+#main .jump{
+    width:850px;
+    text-align: center;
+}
+/* 友情链接 */
+#link{
+    width:100%;
+    background-color: #f2f2f2;
+}
+/* 版心 */
+#link .warp{
+    height:70px;
+    line-height:70px;
+}
+#link .warp a{
+    margin-right:10px;
+}
+/* 页脚 */
+#footer{
+    width:100%;
+    height:120px;
+    text-align: center;
+    background-color:#fff;
+}
+#footer div{
+    margin-bottom:10px;
+}
+#footer div:first-child{
+    margin-top:25px;
+}
+#footer div span{
+    margin-right:10px;
+}
